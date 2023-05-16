@@ -1,0 +1,123 @@
+
+
+@font-face {
+    font-family: "esquadrao";
+    src: url(./fontes/Aachen\ Bold\ BT.eot);
+    src: url(./fontes/Aachen\ Bold\ BT.woff) format("woff"),
+    url(./fontes/Aachen\ Bold\ BT.ttf) format('truetype'),
+    url(./fontes/Aachen\ Bold\ BT.svg) format('svg');
+}
+
+
+body{
+    margin: auto;
+    width: 85%;
+}
+.introducao{
+    text-align: center;
+}
+.cada{
+    background-color: rgb(255, 72, 0);
+    margin: 0px auto 0px auto;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-top: 200px;
+    
+}
+.imagem-esquadrao{
+    background-color: rgb(37, 180, 133);
+    border-radius: 10px;
+    background-image: url(./imagens/o-esquadrao-suicida-2.jpg);
+    background-size: cover;
+    background-position: 0px -40px;
+    height: 400px;
+    width: 100%;
+    
+
+}
+
+
+.texto{
+    border-radius: 20px;
+    width: fit-content;
+    box-sizing: border-box;
+
+}
+.texto div{
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.texto div:nth-child(n+1){
+
+    margin-top: 30px;
+}
+.orange{
+    background-color: rgba(255, 123, 0, 0.678);
+    padding: 1px 10px;
+}
+
+.texto div p:nth-child(2){
+    font-family: esquadrao;
+    color: rgba(0, 0, 0, 0.788);
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 35px;
+    word-spacing: 5px;
+    
+}
+.titulo{
+    margin-top: 0%;
+    font-family: esquadrao;
+    color: yellow;
+    text-shadow: 2px 4px rgb(0, 0, 0);
+    font-size: 30px;
+}
+.cada div h2{
+    font-family: esquadrao;
+    text-align: center;
+    font-size: 50px;
+    margin: 0%;
+    color: yellow;
+    text-shadow: 2px 5px black;
+    margin-bottom: 20px;
+}
+
+
+.titulo{
+    position: relative;
+    top: 10px;
+}
+
+
+.imagem-interestelar{
+    background-image: url(./imagens/Interestelar.jpg);
+    height: 400px;
+    width: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.cada:nth-child(2){
+    background-color: rgb(7, 7, 53);
+}
+
+.blue{
+    background-color: rgba(12, 12, 177, 0.781);
+    padding: 1px 10px;
+}
+
+.texto .blue p:nth-child(2){
+    color: rgba(255, 255, 255, 0.822);
+    letter-spacing: 1px;
+    line-height: 35px;
+    word-spacing: 5px;
+    
+}
+
+
+/* colocar fixed como botão de voltar ao ínicio da página */
