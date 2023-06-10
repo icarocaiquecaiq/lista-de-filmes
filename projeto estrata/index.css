@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: #535050; 
+}
+.main-header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 35%;
+    height: 100%;
+    background: linear-gradient(rgb(0,0,5,0.5),rgb(0,0,5,0.5)),url(./imagens/bg.jpg);
+    background-position: left;
+    background-size: cover;
+    
+}
+.main-content{
+    width: 65%;
+    margin-left:35% ;
+}
+
+.main-content-section p, .main-content p, .main-header p{
+    font-size: 17px;
+    font-weight: 700;
+   
+}
+.main-content-section h1{
+    font-size: 40px
+}
+.main-content-section h2{
+    font-size: 35px
+}
+.main-content-section h3{
+    font-size: 30px
+}
+.main-content-section h4{
+    font-size: 25px
+}
+.main-content-section h5{
+    font-size: 20px
+}
+.main-content-section h6{
+    font-size: 15px
+}
+
+
+.container{
+    margin-top: 15%;
+    margin-left: auto;
+    width: 70%;
+}
+.container h1{
+    color: rgb(170, 168, 168);
+    font-size: 20px;
+    font-weight: 1000;
+}
+.container h1 strong{
+    color: white;
+}
+.container h1 a{
+    all: unset;
+    color: white;
+    text-decoration: underline;
+}
+
+.main-header-link img{
+    mix-blend-mode: multiply;
+    border-radius: 100%;
+    width: 40%;
+    
+}
+
+.main-content{
+   margin-left: 35%;
+   width: 65%;
+   padding: 70px 40px 50px 40px;
+   box-sizing: border-box;
+
+}
+
+
+.button-default:hover{
+    background-color: #d6cece;
+}
+
+
+/* recent works */
+.recent-works-card{
+    float: left;
+    box-sizing: border-box;
+    
+}
+.recent-works-card:nth-child(2n){
+    padding-right: 50px;
+
+}
+.recent-works-card img{
+    width: 80%;
+    border-radius: 20px;
+}
+.recent-works-card p{
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+.no-listen{
+    clear: both;
+}
+/* recent works */
+
+
+/* get in touch */
+.get-in-touch-text{
+    margin-bottom: 30px;
+}
+.area input, textarea{
+    all: unset;
+    background-color: #c9c2c2cc;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    
+}
+
+
+.get-in-touch-form label{
+    display: block;
+}
+.divisor{
+    margin-right: 15px;
+}
+.area{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.get-in-touch-form{
+    margin-right: 20px;
+}
+.container-teste{
+    display: flex;
+}
+address p {
+    margin-bottom: 30px;
+    margin-top: 0%;
+}
+/* get in touch */
+
+
+/* citations */
+.main-content-section blockquote{
+    border-left: #cec4c4c4 solid 3px;
+    padding: 3px 0px 3px 20px;
+    margin: 0%;
+}
+/* citations */
+
+
+/* preformatando */
+.main-content-section pre{
+    background-color: gainsboro;
+    border: solid 1px rgb(201, 199, 199);
+    height: 115px;
+}
+/* preformatando */
+
+
+/* lista e ícones */
+.move{
+   position: absolute;
+   top: 10px;
+   right: 30px;
+   width: 30%;
+
+}
+.container-list-brand{
+    position: relative;
+    padding: 10px;
+    bottom: 50px;
+}
+.move i{
+    width: 30px;
+    margin-left: 5px;
+    color: rgb(11, 109, 109);
+}
+/* lista e ícones */
+
+
+/* action */
+.action:nth-child(2){
+    margin: auto;
+    width: 30%;
+}
+.action .button-default-large{
+    padding: 10px 90px;
+    text-align: center;
+    width: 50px;
+}
+/* action */
+
+
+/* table */
+.default-table tbody tr:nth-child(2n){
+    background-color: rgb(209, 203, 203) ;
+    border-top: solid rgb(114, 111, 111) 1px;  
+    border-bottom: solid rgb(114, 111, 111) 1px;  
+    
+}
+
+.default tbody {
+    border-bottom: 2px rgb(107, 101, 101) solid;
+    border-top: 2px rgb(107, 101, 101) solid;
+}
+
+.default-table{
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    clear: both;
+    
+}
+
+.default-table thead{
+    background-color: rgb(185, 178, 185);
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+tr td{
+    padding: 10px 25px 10px 10px;
+}
+
+
+.alternate thead{
+    border: 2px  rgba(139, 135, 135, 0.712) solid;
+}
+
+.alternate tbody tr td{
+    border: 1px rgb(182, 171, 171) solid;
+}
+/* table */
+
+
+/* buttons */
+.button-default{
+    all: unset;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(40, 116, 116);
+    color: white;
+    margin: 20px 10px 20px 0px;
+    display: inline-block;
+    border: 3px rgb(40, 116, 116) solid;
+    cursor: pointer;
+   text-align: center;
+
+}   
+
+.button-default-stroke{
+    color: rgb(48, 45, 45);
+    background-color: white;
+    border: rgb(211, 203, 203) 3px solid;
+
+}
+
+.button-default-small{
+    padding: 10px 15px;
+    font-size: small;
+}
+
+.button-default-large{
+    padding: 10px 70px;
+    display: block;
+    text-align: center;
+}
+
+.button-default:hover{
+    background-color: rgb(38, 168, 168);
+    border-color: rgb(38, 168, 168);
+}
+
+.button-default-stroke:hover{
+    border-color: #bdbdbd;
+    background-color:gainsboro;
+
+}
+/* buttons */
+
+/* services */
+
+
+.sevices{
+    display: block;
+}
+.services .normal{
+    margin-bottom: 15px;
+    display:flex;
+    flex-direction: column;  
+    
+}
+.services .normal label{
+    margin-left: 10px;
+}
+
+.services .normal input, .services textarea, .services select{ 
+    all: unset;
+    background-color: #bdbdbd;
+    padding: 15px;
+    border-radius: 15px;
+    max-width: 100%;
+}
+.diferent div{
+    margin-bottom: 10px;   
+    
+}
+
+.normal:has(#selection){
+    position:relative ;
+}
+#selection{
+    color:black;
+    border-radius: 5px;
+    appearance: none;
+    
+    
+}
+#selection option{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+
+
+.icon-select{
+    position: absolute;
+    right: 0px;
+    width: 10%;
+    height: 100%;
+    background-color: rgb(38, 168, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 7px 7px 0;
+    pointer-events: none;
+}
+.icon-select i{
+    color: black;
+    font-size: 15px;
+        
+}
+
+
+/* imagens */
+.gallery-img img{
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+.gallery-thumb img{
+    width: 31%;
+    border-radius: 5px;
+    margin: 1% 1%;
+
+    
+}
+
+/* imagens */
+
+/*left and right*/
+.img-right{
+    float: right;
+}
+.img-left{
+    float: left;
+}
+/*left and right*/
+
+
+
+
+
+/* arrumar input reset */
+/* ajustar a posição dos labels do form */
