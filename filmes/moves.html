@@ -1,246 +1,403 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="mode-dark">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>indicações de filmes</title>
     <link rel="stylesheet" href="moves.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     
 </head>
 <body>
-    <main class="content">
-        <section class="introducao">
-            <h1>recomendações de filmes</h1>
-            <p class="texto-indução">alguém já te recomendou algum filme ruim para você? seja os criticos, cineastas, amigos, sites e por aí vai... algumas recomendações se baseam no gosto pessoal daquela pessoa ou interesse da mídia, que alías, podem te agradar ou não no final das contas. contudo, em meio de milhares de indicações, aqui, nessa página, indico os melhores filmes que me agradaram de certo modo e recomendo todos a terem a experiência de assistir. Infelizmente, não posso garantir a todos uma ótima experiência, nem todos os filmes agradam à todos. Desse modo, a lista acompanha vários generos que com certeza possa encaixar no seu gosto pessoal.  
-            </p>
-        </section>
-        <article>
-            <section class="filmes">
-                <div class="cada">
-                    <div>
-                        <h2 class="custom-default">esquadrão suicida</h2>
-                    </div>
-                    <div class="imagem-container">
-                        <img src="./imagens/o-esquadrao-suicida-2.jpg" alt="">
-                    </div>
-                    <div class="texto">
-                        <div class="orange">
-                            <p class="titulo">Sinopse:</p>
-                            <p class="sinopse">
-                                O governo envia os supervilões mais perigosos do mundo para a remota ilha de Corto Maltese, repleta de inimigos. Armados com armas de alta tecnologia, eles viajam pela selva perigosa em uma missão de busca e destruição com o Coronel Rick Flag.
-                            </p>
-                        </div>
-                        <div class="orange">
-                            <p class="titulo">Gênero:</p>
-                            <p class="genero">ação, aventura, comedia, suspense.</p>
-                        </div>
-                        <div class="orange">
-                            <p class="titulo">Disponibilidade em streaming:</p>
-                            <p class="catalogo">amazon prime, globo play, HTBO, telecine pipoca.</p>
-                        </div>
-                    </div>
+    <div class="space">
+        <header>
+            <div class="main-header">
+                <div class="main-header-logo">
+                    <a href="#"><img src="./logos/logocinama.svg" alt=""></a>
                 </div>
+                <nav class = "pc-nav">
+                        <ul class="icons">
+                            <li>
+                                <a class="icon" href="#"> <i class="fa-solid fa-house"></i></a>
+                            </li>
+                            <li>
+                                <a class="icon" href="#"> <i class="fa-solid fa-circle-user"></i></a>
+                            </li>
+                            <li>
+                                <a class="icon" href="#"> <i class="fa-solid fa-flag"></i></a>
+                            </li>
+                            <li>
+                                <a class="icon" href="#"> <i class="fa-solid fa-pencil"></i></a>
+                            </li>
+                        </ul>
+                </nav>
+                <nav class="mobile-nav ">
+                    <div class="mobile-nav-icon">
+                        <button class="proper-mobile-nav-icon word "><i class="fa-solid fa-bars"></i></button>
+                    </div>
+                </nav>    
+            </div>
 
-
-                <div class="cada">
-                    <div>
-                        <h2 class="custom-default main-title-interestelar">interestelar</h2>
-                    </div>
-                    <div class="imagem-container">
-                        <img src="./imagens/interestelarfull.jpg" alt="">
-                    </div>
-                    <div class="texto">
-                        <div class="blue">
-                            <p class="titulo">Sinopse:</p>
-                            <p class="sinopse">
-                                As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.
-                            </p>
-                        </div>
-                        <div class="blue">
-                            <p class="titulo">
-                                Gênero:
-                            </p>
-                            <p class="genero">
-                                ficção científica, drama, aventura, mistério.
-                            </p>
-                        </div>
-                        <div class="blue">
-                            <p class="titulo">Disponibilidade em streaming:</p>
-                            <p class="catalogo">amazon prime, HTBO.</p>
-                        </div>
-                    </div>
+            <nav class="close-mobile-nav">
+                <div class="open-mobile-nav-container">
+                    <ul>
+                        <li>
+                            <a class="mobile-icon" href="#"><span>ínicio</span></a>
+                        </li>
+                        <li>
+                            <a class="mobile-icon" href="#"><span>entrar</span></a>
+                        </li>
+                        <li>
+                            <a class="mobile-icon" href="#"><span>avisos</span></i></a>
+                        </li>
+                        <li>
+                            <a class="mobile-icon" href="#"> <span>seja apoiador</span></i></a>
+                        </li>
+                    </ul>    
                 </div>
+            </nav>    
+            
+        </header>
+        <main class="content">
+            
+            <article>
+                <section class="intro">
+                    <h1 class=" main-title custom-default ">recomendações de filmes</h1>
+                    <p class="text-intro ">Alguém já te recomendou algum filme ruim para você? seja os criticos, cineastas, amigos, sites e por aí vai... algumas recomendações se baseam no gosto pessoal daquela pessoa ou interesse da mídia, que alías, podem te agradar ou não no final das contas.   
+                    </p>
+                    <p class="text-intro ">
+                        contudo, em meio de milhares de indicações, aqui, nessa página, indico os melhores filmes que me agradaram de certo modo e recomendo todos a terem a experiência de assistir.
+                    </p>
+                    <p class="text-intro ">
+                        Infelizmente, não posso garantir a todos uma ótima experiência, nem todos os filmes agradam à todos. Desse modo, a lista acompanha vários generos que com certeza possa encaixar no seu gosto pessoal. 
+                    </p>
+                </section>
+                <section class="filmes">
+                    <div class="cada cada-esquadrao ">
+                        <div>
+                            <h2 class="custom-default custom-default-esquadrao ">esquadrão suicida</h2>
+                        </div>
+                        <div class="imagem-container">
+                            <img src="./imagens/o-esquadrao-suicida-2.jpg" alt="">
+                        </div>
+                        <div class="texto">
+                            <div class="texto-esquadrao texto-default ">
+                                <p class="titulo titulo-esquadrao ">Sinopse</p>
+                                <p class="sinopse sinopse-esquadrao ">
+                                    O governo envia os supervilões mais perigosos do mundo para a remota ilha de Corto Maltese, repleta de inimigos. 
+                                </p>
+                                <p class="sinopse sinopse-esquadrao ">Armados com armas de alta tecnologia, eles viajam pela selva perigosa em uma missão de busca e destruição com o Coronel Rick Flag.</p>
+                            </div>
+                            <div class="texto-esquadrao  texto-default ">
+                                <p class="titulo titulo-esquadrao ">Gênero</p>
+                                <p class="genero genero-esquadrao ">ação, aventura, comedia, suspense.</p>
+                            </div>
+                            <div class="texto-esquadrao  texto-default ">
+                                <p class="titulo titulo-esquadrao ">onde assistir em streaming</p>
+                                <p class="catalogo catalogo-esquadrao ">amazon prime, globo play, HTBO, telecine pipoca.</p>
+                            </div>
+                        </div>
+                    </div>
 
 
-                <div class="cada">
-                    <div>
-                        <h2 class="custom-default ford">Ford vs Ferrari</h2>
-                    </div>
-                    <div class="imagem-container">
-                        <img src="./imagens/fordvsFerrari.webp" alt="">
-                    </div>
-                    <div class="texto ford">
-                        <div class="cream">
-                            <p class="titulo">Sinopse:</p>
-                            <p class="sinopse">
-                                O projetista Carroll Shelby e o piloto Ken Miles enfrentaram a interferência empresarial, as leis da física e os próprios demônios para construir um carro de corrida para a Ford Motor derrotar a hegemonia de Enzo Ferrari nas 24 horas de Le Mans.
-                            </p>
+                    <div class="cada cada-interestelar ">
+                        <div>
+                            <h2 class="custom-default custom-default-interestelar ">interestelar</h2>
                         </div>
-                        <div class="cream">
-                            <p class="titulo">
-                                Gênero:
-                            </p>
-                            <p class="genero">
-                                Ação, drama, filmes de esportes. 
-                            </p>
+                        <div class="imagem-container">
+                            <img src="./imagens/interestelarfull.jpg" alt="">
                         </div>
-                        <div class="cream">
-                            <p class="titulo">Disponibilidade em streaming:</p>
-                            <p class="catalogo">disney plus, star plus, apple tv e amazon prime.</p>
+                        <div class="texto">
+                            <div class="texto-interestelar texto-default ">
+                                <p class="titulo titulo-interestelar ">Sinopse</p>
+                                <p class="sinopse sinopse-interestelar ">
+                                    As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. 
+                                </p>
+                                <p class="sinopse sinopse-interestelar "> Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.</p>
+                            </div>
+                            <div class="texto-interestelar  texto-default ">
+                                <p class="titulo titulo-interestelar ">
+                                    Gênero
+                                </p>
+                                <p class="genero genero-interestelar ">
+                                    ficção científica, drama, aventura, mistério.
+                                </p>
+                            </div>
+                            <div class="texto-interestelar  texto-default ">
+                                <p class="titulo titulo-interestelar ">onde assistir em streaming</p>
+                                <p class="catalogo catalogo-interestelar ">amazon prime, HTBO.</p>
+                            </div>
                         </div>
                     </div>
+
+
+                    <div class="cada cada-ford ">
+                        <div>
+                            <h2 class="custom-default custom-default-ford ">Ford vs Ferrari</h2>
+                        </div>
+                        <div class="imagem-container">
+                            <img src="./imagens/fordvsFerrari.webp" alt="">
+                        </div>
+                        <div class="texto">
+                            <div class="texto-default  texto-ford">
+                                <p class="titulo titulo-ford ">Sinopse</p>
+                                <p class="sinopse sinopse-ford ">
+                                    O projetista Carroll Shelby e o piloto Ken Miles enfrentaram a interferência empresarial, as leis da física e os próprios demônios para construir um carro de corrida para a Ford Motor derrotar a hegemonia de Enzo Ferrari nas 24 horas de Le Mans.
+                                </p>
+                            </div>
+                            <div class="texto-default  texto-ford ">
+                                <p class="titulo titulo-ford ">
+                                    Gênero
+                                </p>
+                                <p class="genero genero-ford ">
+                                    Ação, drama, filmes de esportes. 
+                                </p>
+                            </div>
+                            <div class="texto-default  texto-ford ">
+                                <p class="titulo titulo-ford ">onde assistir em streaming</p>
+                                <p class="catalogo catalogo-ford ">disney plus, star plus, apple tv e amazon prime.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="cada cada-jojo ">
+                        <div>
+                            <h2 class="custom-default custom-default-jojo ">jojo Rabit</h2>
+                        </div>
+                        <div class="imagem-container">
+                            <img src="./imagens/jojo habit.jpeg" alt="">
+                        </div>
+                        <div class="texto">
+                            <div class="texto-default  texto-jojo">
+                                <p class="titulo titulo-jojo ">Sinopse</p>
+                                <p class="sinopse sinopse-jojo ">
+                                    Jojo é um garoto alemão solitário que descobre que sua mãe está escondendo uma garota judia no sótão. 
+                                </p>
+                                <p class="sinopse sinopse-jojo ">Ajudado apenas por seu amigo imaginário, Adolf Hitler, Jojo deve enfrentar seu nacionalismo cego enquanto a Segunda Guerra Mundial prossegue.</p>
+                            </div>
+                            <div class="texto-default  texto-jojo ">
+                                <p class="titulo titulo-jojo ">
+                                    Gênero
+                                </p>
+                                <p class="genero genero-jojo ">
+                                    guerra, comédia, humor-ácido, drama, comédia dramática. 
+                                </p>
+                            </div>
+                            <div class=" texto-default  texto-jojo ">
+                                <p class="titulo titulo-jojo ">onde assistir em streaming</p>
+                                <p class="catalogo catalogo-jojo ">amazon prime, netflix e apple tv.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="cada cada-ilha ">
+                        <div>
+                            <h2 class="custom-default custom-default-ilha ">Ilha do medo</h2>
+                        </div>
+                        <div class="imagem-container">
+                            <img src="./imagens/ilha do medo.webp" alt="">
+                        </div>
+                        <div class="texto">
+                            <div class="texto-default  texto-ilha ">
+                                <p class="titulo titulo-ilha ">Sinopse</p>
+                                <p class="sinopse sinopse-ilha ">
+                                    Nos anos 1950, a fuga de uma assassina leva o detetive Teddy Daniels e seu parceiro a investigarem o seu desaparecimento de um quarto trancado em um hospital psiquiátrico. 
+                                </p>
+                                <p class="sinopse sinopse-ilha ">Lá, uma rebelião se inicia e o agente terá que enfrentar seus próprios medos.</p>
+                            </div>
+                            <div class="texto-default  texto-ilha ">
+                                <p class="titulo titulo-ilha ">
+                                    Gênero
+                                </p>
+                                <p class="genero genero-ilha ">
+                                    terror, suspense, suspense psicológico, mistério, drama
+                                </p>
+                            </div>
+                            <div class="texto-default  texto-ilha ">
+                                <p class="titulo titulo-ilha ">onde assistir em streaming</p>
+                                <p class="catalogo catalogo-ilha ">netflix e apple tv.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cada cada-batman ">
+                        <div>
+                            <h2 class="custom-default custom-default-batman " >Batman o Cavaleiro das Trevas</h2>
+                        </div>
+                        <div class="imagem-container">
+                            <img src="./imagens/batman dark knight .jpg" alt="">
+                        </div>
+                        <div class="texto">
+                            <div class="texto-default  texto-batman">
+                                <p class="titulo titulo-batman ">Sinopse</p>
+                                <p class="sinopse-batman  sinopse">
+                                    Batman tem conseguido manter a ordem em Gotham com a ajuda de Jim Gordon e Harvey Dent. 
+                                </p>
+                                <p class="sinopse-batman  sinopse">No entanto, um jovem e anárquico criminoso, conhecido apenas como Coringa, pretende testar o Cavaleiro das Trevas e mergulhar a cidade em um verdadeiro caos. </p>
+                            </div>
+                            <div class="texto-default  texto-batman ">
+                                <p class="titulo titulo-batman ">
+                                    Gênero
+                                </p>
+                                <p class="genero-batman  genero">
+                                    terror, suspense, psicológico, mistério, drama
+                                </p>
+                            </div>
+                            <div class="texto-default  texto-batman ">
+                                <p class="titulo titulo-batman ">onde assistir em streaming</p>
+                                <p class="catalogo-batman  catalogo">netflix e apple tv.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cada cada-abutre ">
+                        <div>
+                            <h2 class="custom-default custom-default-abutre">O Abutre</h2>
+                        </div>
+                        <div class="imagem-container">
+                            <img src="./imagens/nightcrawler.jpg" alt="">
+                        </div>
+                        <div class="texto">
+                            <div class="texto-default  texto-abutre ">
+                                <p class="titulo titulo-abutre ">Sinopse</p>
+                                <p class="sinopse sinopse-abutre ">
+                                    Para enfrentar dificuldades de conseguir um emprego formal, o jovem Louis Bloom (Jake Gyllenhaal) decide entrar no agitado submundo do jornalismo criminal independente de Los Angeles. 
+                                </p>
+                                <p class="sinopse sinopse-abutre ">A fórmula é correr atrás de crimes e acidentes chocantes, registrar tudo e vender a história para veículos interessados.</p>
+                            </div>
+                            <div class="texto-default  texto-abutre ">
+                                <p class="titulo titulo-abutre ">
+                                    Gênero
+                                </p>
+                                <p class="genero genero-abutre ">
+                                    suspense, drama, ação, crime, independente, psicológico, thiller criminal.
+                                </p>
+                            </div>
+                            <div class="texto-default  texto-abutre ">
+                                <p class="titulo titulo-abutre ">onde assistir em streaming</p>
+                                <p class="catalogo catalogo-abutre ">Amazon.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </main>
+        <span class="tools">
+            <span class="arrow">
+                <a href="#"  class="arrow-space">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </a>
+            </span>
+            <span class="dark-mode">
+                <button class="dark-mode-icon">
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                </button>
+            </span>
+        </span>
+        <div class="advertise">
+            <span class="see-more">
+                <h1 class="advertise-header ">curiosidades</h1>
+                <section class="links-about">
+                    <ul>
+                        <li class=" each-links"><a class="each-links-about " href="#"><span>top 10 jogos <datagrid></datagrid> 5° geração</span></a></li>
+                        <li class=" each-links"><a class="each-links-about " href="#"><span>top 5 filmes de terror</span></a></li>
+                        <li class=" each-links"><a class="each-links-about " href="#"><span>o que faz interestelar ser tão bom?</span></a></li>
+                    </ul>
+                </section>
+
+                <section class="get-user">
+                    <div class="text-content ">Crie uma conta em nosso site. Fique por dentro de conteúdos relacionados a filmes, séries, jogos e músicas.</div>
+                    <button class="related-content-button get-user-button  ">inscreva-se</button>                    
+                </section>
+
+                <section class="related-content ">
+                    <img src="./imagens/magot and ryan.jpeg" alt="">
+                    <p class="related-content-text ">Magot Robie e Ryan Gosling ganham papeis inéditos</p>
+                    <button class="related-content-button  ">
+                        veja mais
+                    </button>
+                </section>
+            </span>
+        </div>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-info">
+                    <h2 class="footer-header">Soluções</h2>
+                    <hr>
+                    <p class="footer-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolorum optio numquam quae nisi aut ea ipsum corporis molestias harum.
+                    </p>
                 </div>
-
-
-                <div class="cada">
-                    <div>
-                        <h2 class="custom-default jojo">jojo Rabit</h2>
-                    </div>
-                    <div class="imagem-container">
-                        <img src="./imagens/jojo habit.jpeg" alt="">
-                    </div>
-                    <div class="texto jojo">
-                        <div class="red">
-                            <p class="titulo">Sinopse:</p>
-                            <p class="sinopse">
-                                Jojo é um garoto alemão solitário que descobre que sua mãe está escondendo uma garota judia no sótão. Ajudado apenas por seu amigo imaginário, Adolf Hitler, Jojo deve enfrentar seu nacionalismo cego enquanto a Segunda Guerra Mundial prossegue.
-                            </p>
-                        </div>
-                        <div class="red">
-                            <p class="titulo">
-                                Gênero:
-                            </p>
-                            <p class="genero">
-                                guerra, comédia, humor-ácido, drama, comédia dramática. 
-                            </p>
-                        </div>
-                        <div class="red">
-                            <p class="titulo">Disponibilidade em streaming:</p>
-                            <p class="catalogo">amazon prime, netflix e apple tv.</p>
-                        </div>
-                    </div>
+                <div class="footer-info">
+                    <h2 class="footer-header">Serviços</h2>
+                    <hr>
+                    <p class="footer-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto rem recusandae ullam illo similique harum!.
+                    </p>
                 </div>
-
-
-                <div class="cada ilha">
-                    <div>
-                        <h2 class="custom-default ilha">Ilha do medo</h2>
-                    </div>
-                    <div class="imagem-container">
-                        <img src="./imagens/ilha do medo.webp" alt="">
-                    </div>
-                    <div class="texto">
-                        <div class="ilha">
-                            <p class="titulo">Sinopse:</p>
-                            <p class="sinopse">
-                                Nos anos 1950, a fuga de uma assassina leva o detetive Teddy Daniels e seu parceiro a investigarem o seu desaparecimento de um quarto trancado em um hospital psiquiátrico. Lá, uma rebelião se inicia e o agente terá que enfrentar seus próprios medos.
-                            </p>
-                        </div>
-                        <div class="ilha">
-                            <p class="titulo">
-                                Gênero:
-                            </p>
-                            <p class="genero">
-                                terror, suspense, suspense psicológico, mistério, drama
-                            </p>
-                        </div>
-                        <div class="ilha">
-                            <p class="titulo">Disponibilidade em streaming:</p>
-                            <p class="catalogo">netflix e apple tv.</p>
-                        </div>
-                    </div>
+                <div class="footer-info">
+                    <h2 class="footer-header">sobre nós</h2>
+                    <hr>
+                    <p class="footer-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam debitis sequi deserunt, quidem et animi nihil dolor fugiat, deleniti velit ipsa ab ratione incidunt nesciunt?.
+                    </p>
                 </div>
-
-                <div class="cada batman">
-                    <div>
-                        <h2 class="custom-default batman">Batman o Cavaleiro das Trevas</h2>
-                    </div>
-                    <div class="imagem-container">
-                        <img src="./imagens/batman dark knight .jpg" alt="">
-                    </div>
-                    <div class="texto">
-                        <div class="batman">
-                            <p class="titulo">Sinopse:</p>
-                            <p class="sinopse">
-                                Nos anos 1950, a fuga de uma assassina leva o detetive Teddy Daniels e seu parceiro a investigarem o seu desaparecimento de um quarto trancado em um hospital psiquiátrico. Lá, uma rebelião se inicia e o agente terá que enfrentar seus próprios medos.
-                            </p>
-                        </div>
-                        <div class="batman">
-                            <p class="titulo">
-                                Gênero:
-                            </p>
-                            <p class="genero">
-                                terror, suspense, psicológico, mistério, drama
-                            </p>
-                        </div>
-                        <div class="batman">
-                            <p class="titulo">Disponibilidade em streaming:</p>
-                            <p class="catalogo">netflix e apple tv.</p>
-                        </div>
-                    </div>
+            </div>
+            <div class="footer-final">
+                <div class="social-media division-33">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-regular fa-envelope"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="cada abutre">
-                    <div>
-                        <h2 class="custom-default abutre">O Abutre</h2>
-                    </div>
-                    <div class="imagem-container">
-                        <img src="./imagens/nightcrawler.jpg" alt="">
-                    </div>
-                    <div class="texto">
-                        <div class="abutre">
-                            <p class="titulo">Sinopse:</p>
-                            <p class="sinopse">
-                                Para enfrentar dificuldades de conseguir um emprego formal, o jovem Louis Bloom (Jake Gyllenhaal) decide entrar no agitado submundo do jornalismo criminal independente de Los Angeles. A fórmula é correr atrás de crimes e acidentes chocantes, registrar tudo e vender a história para veículos interessados.
-                            </p>
-                        </div>
-                        <div class="abutre">
-                            <p class="titulo">
-                                Gênero:
-                            </p>
-                            <p class="genero">
-                                 suspense, drama, ação, crime, independente, psicológico, thiller criminal.
-                            </p>
-                        </div>
-                        <div class="abutre">
-                            <p class="titulo">Disponibilidade em streaming:</p>
-                            <p class="catalogo">Amazon.</p>
-                        </div>
-                    </div>
+                <div class="partners division-33">
+                    <a href="#">
+                        <img src="./logos/microsoftLogo_transparent.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./logos/bcIso.jpg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./logos/universal.png" alt="">
+                    </a>
                 </div>
-            </section>
-        </article>
-    </main>
+                <div class="terms-privacy division-33">
+                    <a href="#">termos e condições</a>
+                    <a href="#">privacidade e leis</a>
+                </div>
+            </div>
+        </footer>
+    </div>
     <!-- js part -->
     <script src="./moves.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-<!-- 
-<p class="titulo">genero:</p>
-<p class="genero">
-    ação aventura fantasia ficção científica
-</p>
-<p class="titulo"> disponivel em:</p>
-<p class="lugares">
-    amazon prime, HBO, globo play.
-</p> -->
